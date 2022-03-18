@@ -121,3 +121,41 @@ footer{
     height: 60px;
     background-color: #154454;
 }
+
+.historia-section{
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 20px;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px;
+    gap: 20px;
+}
+
+article > p {
+    width: 45%;
+}
+
+.video-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.video-container{
+width: 70%;    
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-bottom: 100px ;
+
+}
