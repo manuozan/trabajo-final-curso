@@ -188,9 +188,55 @@ video{
     box-shadow: 2px 3px #154454;
     border-radius: 10px;
     padding: 10px;
-    /* text-decoration: none; */
     background-color: #F0F5E4;
     color: #154454;
-    /* font-weight: 300; */
+   
 
+}
+
+
+/* JUEGO  */
+
+.game-section{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+    place-items: center;
+}
+
+.drop-container{
+    /* width: fit-content; */
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+}
+
+.dropbox{
+    width: 275px;
+    height: 400px;
+    border:  2px solid;
+    text-align: center;
+}
+
+.img-container{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 40px;
+}
+
+.img-container > img{
+    width: 275px;
+    height: 400px;
+}
+
+.game-section > button{
+    box-shadow: 2px 3px #154454;
+    border-radius: 10px;
+    padding: 10px 100px;
+    
+    background-color: #F0F5E4;
+    color: #154454;
+    font-weight: 300;
 }
