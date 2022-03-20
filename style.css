@@ -235,8 +235,16 @@ video{
     box-shadow: 2px 3px #154454;
     border-radius: 10px;
     padding: 10px 100px;
-    
     background-color: #F0F5E4;
     color: #154454;
     font-weight: 300;
+}
+
+/* SOMBRAS */
+h1{
+    text-shadow: 4px 4px black;
+}
+
+h2{
+    text-shadow: 2px 2px #154454;
 }
