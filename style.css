@@ -8,14 +8,31 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 -80px;
+    
 }
 
 .home-button{
     width: 200px;
     height: 84px;
-    margin: 0 40px;
+    margin-left: 40px;
+    background-color: #fff;
 }
+
+.nav-right{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 60px;
+    gap: 5px;
+    
+}
+nav > ul > a{
+    
+    /* width: 300px; */
+    margin-right: 50px;
+    
+    /* justify-content: space-around; */
 .nav-button{
     box-shadow: 2px 3px #154454;
     border-radius: 10px;
@@ -240,6 +257,7 @@ video{
     font-weight: 300;
 }
 
+}
 /* SOMBRAS */
 h1{
     text-shadow: 4px 4px black;
