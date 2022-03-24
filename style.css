@@ -12,10 +12,21 @@ nav{
 }
 
 .home-button{
-    width: 200px;
+    width: 150px;
     height: 84px;
     margin-left: 40px;
-    background-color: #fff;
+    background-color: #427E80 ;
+    background-image: url(./assets/img/laptop.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 3px ;
+}
+
+/* .nav-logo{
+    display: flex;
+    height: fit-content;
+    visibility: hidden; */
 }
 
 .nav-right{
@@ -33,6 +44,8 @@ nav > ul > a{
     margin-right: 50px;
     
     /* justify-content: space-around; */
+}
+
 .nav-button{
     box-shadow: 2px 3px #154454;
     border-radius: 10px;
@@ -41,7 +54,7 @@ nav > ul > a{
     background-color: #F0F5E4;
     color: #154454;
     font-weight: 300;
-    gap: 20px;
+    gap: 80px;
 }
 
 body{
@@ -125,7 +138,7 @@ h2{
 
 footer{
     height: 80px;
-    background-color: #000;
+    background-color: #1d1d1d;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -138,7 +151,10 @@ footer{
     display: flex;
     width: 300px;
     height: 60px;
-    background-color: #154454;
+    /* background-color: #154454; */
+    place-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .historia-section{
@@ -257,6 +273,8 @@ video{
     font-weight: 300;
 }
 
+.footer-img{
+    /* width: fit-content; */
 }
 /* SOMBRAS */
 h1{

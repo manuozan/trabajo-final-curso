@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="200px"
+height="200px"
+>
+
+<!-- rectángulo oscuro         -->
+<rect 
+x="45" y="5" 
+width="120" height="60"
+fill="#3F6797" 
+rx="5"
+/>
+
+<!-- rectángulo claro -->
+<rect 
+x="55.5" y="13"
+width="99" height="43"
+fill="#B1D5E4"
+rx="5" />      
+
+<!-- trapecio oscuro -->
+<polygon points="
+55 75 ,
+155 75,
+180 112,
+30 112" 
+fill="#3F6797" 
+></polygon>
+
+<!-- trapecio claro -->
+<polygon points="
+60 80 ,
+150 80,
+167 105,
+43 105" 
+fill="#B1D5E4" 
+></polygon>
+
+
+</svg>
