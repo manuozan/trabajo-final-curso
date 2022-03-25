@@ -9,7 +9,47 @@
 </head>
 <body>
     <nav>
-        <div class="home-button"></div>
+        <a class="home-button">
+            <svg class="nav-logo"
+                xmlns="http://www.w3.org/2000/svg"
+                width="120px"
+                height="80px"
+                >
+
+                <!-- rectángulo oscuro         -->
+                <rect class="logo-background"
+                x="45" y="5" 
+                width="60" height="35"
+                fill="#3F6797" 
+                rx="5"
+                />
+
+                <!-- rectángulo claro -->
+                <rect class="logo-front"
+                x="50" y="10"
+                width="50" height="25"
+                fill="#B1D5E4"
+                rx="5" />      
+
+                <!-- trapecio oscuro -->
+                <polygon class="logo-background" points="
+                50 44 ,
+                100 44,
+                115 65,
+                35 65" 
+                fill="#3F6797" 
+                ></polygon>
+
+                <!-- trapecio claro -->
+                <polygon class="logo-front" points="
+                52 47 ,
+                98 47,
+                108 61,
+                42 61" 
+                fill="#B1D5E4" 
+                ></polygon>
+            </svg>    
+        </a>
         
         <ul>
             <a class="nav-button" href="./historia.html">HISTORIA</a>
