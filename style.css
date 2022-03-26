@@ -16,30 +16,24 @@ nav{
     height: 84px;
     margin-left: 40px;
     background-color: #427E80 ;
-    /* background-image: url(./assets/img/laptop.svg);
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: 3px ; */
+  
 }
 
-.nav-logo{
-    
-}
 
 .nav-right{
     width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-right: 60px;
-    gap: 5px;
+    margin-right: 40px;
+    gap: 1px;
     
 }
+
 nav > ul > a{
     
     /* width: 300px; */
-    margin-right: 50px;
+    /* margin-right: 50px; */
     
     /* justify-content: space-around; */
 }
@@ -54,6 +48,7 @@ nav > ul > a{
     font-weight: 300;
     gap: 80px;
 }
+
 
 body{
     margin: 0;
@@ -274,6 +269,7 @@ video{
 .footer-img{
     /* width: fit-content; */
 }
+
 /* SOMBRAS */
 h1{
     text-shadow: 4px 4px black;
@@ -283,7 +279,8 @@ h2{
     text-shadow: 2px 2px #154454;
 }
 
-
+/* ANIMACIONES!!!!!!!!!! */
+/* LOGO - LAPTOP */
 .logo-background{
     animation: behind ease-in 5s  ;
     animation-iteration-count:1 ;
@@ -332,3 +329,10 @@ animation-iteration-count:1 ;
             transform:translate(0,0);
             opacity:1;}
         }  
+
+
+/* ANIMACIÓN DE LOS BOTONES!!!!! */
+.nav-button:active,.card-button:active,#restart:active{
+    transform: translate(3px, 2px);
+    box-shadow: none;
+}
