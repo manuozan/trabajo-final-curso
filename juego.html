@@ -68,28 +68,28 @@
             Armemos el rompecabezas y veamos que imagen es...
         </h2>
         
-        <div class="drop-container">
+        <div class="drop-container" id="drop-container">
             <div class="dropbox" id="dropbox1">
                 <p>Arrastre y suelte la imagen aquí</p>
             </div>
             <div class="dropbox" id="dropbox2">
                 <p>Arrastre y suelte la imagen aquí</p>
             </div>
-            <div class="dropbox" id="">
+            <div class="dropbox" id="dropbox3">
                 <p>Arrastre y suelte la imagen aquí</p>
             </div>
         </div>
 
         <div class="img-container">
-          <img src="./assets/img/rompe2.png" alt="">
-          <img src="./assets/img/Rompe1.png" alt="">
-          <img src="./assets/img/rompe3.png" alt="">
+          <img src="./assets/img/rompe2.png" id="img2">
+          <img src="./assets/img/Rompe1.png" id="img1">
+          <img src="./assets/img/rompe3.png" id="img3">
         </div>
 
-        <button id="restart">Reiniciar</button>
+        <button id="restart" onclick="reload()">Reiniciar</button>
 
      </section>
     
-    
+    <script src="./app.js"></script>
 </body>
 </html>

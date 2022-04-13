@@ -13,7 +13,6 @@ PlayButton.addEventListener("click", function(){
     video.play();
     playing = true;
     console.log(playing)
- 
 }});
 
 PauseButton.addEventListener("click", function(){
@@ -21,6 +20,6 @@ PauseButton.addEventListener("click", function(){
     if (playing) {
 
     video.pause();
-    playing = false
+    playing = false;
     console.log(playing)
 }});

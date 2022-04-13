@@ -224,10 +224,10 @@ video{
 }
 
 .drop-container{
-    /* width: fit-content; */
+   
     display: flex;
     flex-direction: row;
-    background-color: grey;
+    background-color: grey; 
 }
 
 .dropbox{
@@ -236,6 +236,15 @@ video{
     border:  2px solid;
     text-align: center;
 }
+
+.dropbox.hover{
+    width: 275px;
+    height: 400px;
+    border:  2px solid;
+    text-align: center;
+    background-color: #154454;
+}
+
 
 .img-container{
     width: fit-content;
