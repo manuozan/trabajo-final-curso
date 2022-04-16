@@ -25,42 +25,58 @@
 //
 
 function drag(e){
-    elemento=e.target;
-    e.dataTransfer.setData('Text', elemento.getAttribute('id'));
+    imgDraged=e.target;
+    e.dataTransfer.setData('Text', imgDraged.getAttribute('id'));
 }
 
 function drop1(e){
     var id=e.dataTransfer.getData('Text');
-    if(id!="img1"){
-        box1.innerHTML='<p>❌ La imagen no es correcta</p>';
-        // this.style.border='2px solid red'
-    }else{
-        var src=document.getElementById(id).src;
+    
+    var src=document.getElementById(id).src;
         box1.innerHTML='<img src="'+src+'" height="400px" width="275px">';
-        (id=img1).style.display='none';    
-    }
+        (imgDraged).style.display='none';  
+
+
+    // if(id!="img1"){
+    //     box1.innerHTML='<p>❌ La imagen no es correcta</p>';
+    //     // this.style.border='2px solid red'
+    // }else{
+    //     var src=document.getElementById(id).src;
+    //     box1.innerHTML='<img src="'+src+'" height="400px" width="275px">';
+    //     (id=img1).style.display='none';    
+    // }
 }
 
 function drop2(e){
     var id=e.dataTransfer.getData('Text');
-    if(id!="img2"){
-        box2.innerHTML='<p>❌ La imagen no es correcta</p>';
-    }else{
-        var src=document.getElementById(id).src;
+    var src=document.getElementById(id).src;
         box2.innerHTML='<img src="'+src+'" height="400px" width="275px">';
-        (id=img2).style.display='none';
-    }
+        (imgDraged).style.display='none';
+
+
+    // if(id!="img2"){
+    //     box2.innerHTML='<p>❌ La imagen no es correcta</p>';
+    // }else{
+    //     var src=document.getElementById(id).src;
+    //     box2.innerHTML='<img src="'+src+'" height="400px" width="275px">';
+    //     (id=img2).style.display='none';
+    // }
 }
 
 function drop3(e){
     var id=e.dataTransfer.getData('Text');
-    if(id!="img3"){
-        box3.innerHTML='<p>❌ La imagen no es correcta</p>';
-    }else{
-        var src=document.getElementById(id).src;
-        box3.innerHTML='<img src="'+src+'" height="400px" width="275px">';
-        (id=img3).style.display='none'
-    }
+    var src=document.getElementById(id).src;
+    box3.innerHTML='<img src="'+src+'" height="400px" width="275px">';
+    (imgDraged).style.display='none'
+
+
+    // if(id!="img3"){
+    //     box3.innerHTML='<p>❌ La imagen no es correcta</p>';
+    // }else{
+    //     var src=document.getElementById(id).src;
+    //     box3.innerHTML='<img src="'+src+'" height="400px" width="275px">';
+    //     (id=img3).style.display='none'
+    // }
 }
 
 function reload() {
