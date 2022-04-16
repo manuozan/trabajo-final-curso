@@ -167,27 +167,20 @@ article > p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
 
 .video-container{
 display: block;
 width: 70%;    
 background-color: #000;
-/* text-align: end; */
 justify-content: center;
-/* align-items: center;
-flex-direction: column; */
 margin-bottom: 100px ;
 border: 5px solid ;
-
 }
 
 video{
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .controls-bar{
@@ -197,8 +190,7 @@ video{
     background-color: #1d1d1d;
     border-radius: 10px;
     gap: 20px;
-   
-   
+    justify-content: space-between;  
 }
 
 .video-controls{
@@ -209,10 +201,13 @@ video{
     padding: 10px;
     background-color: #F0F5E4;
     color: #154454;
-   
-
 }
 
+#video-time{
+    padding-top: 25px;
+    padding-right: 10px;
+    color: white;
+}
 
 /* JUEGO  */
 
@@ -268,9 +263,6 @@ video{
     font-weight: 300;
 }
 
-.footer-img{
-    /* width: fit-content; */
-}
 
 /* SOMBRAS */
 h1{
@@ -334,7 +326,7 @@ animation-iteration-count:1 ;
 
 
 /* ANIMACIÓN DE LOS BOTONES!!!!! */
-.nav-button:active,.card-button:active,#restart:active{
+.nav-button:active,.card-button:active,#restart:active,.video-controls:active{
     transform: translate(3px, 2px);
     box-shadow: none;
 }
