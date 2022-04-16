@@ -31,18 +31,6 @@ PauseButton.addEventListener("click", function(){
 
 ////////////////////// DURACIÓN DEL VIDEO //////////////////////////////
 
-// setInterval(()=>{document.getElementById('video-time').innerHTML=Math.round(video.currentTime)+'/'+Math.round(video.duration)
-// },1000);
-
-// video.addEventListener("timeupdate", (e) => {
-//     let currentVideoTime = e.target.currentTime;
-//     let currentMin = Math.floor(currentVideoTime / 60);
-//     let currentSec = Math.floor(currentVideoTime % 60);
-   
-//     currentSec < 10 ? (currentSec = "0" + currentSec) : currentSec;
-//     document.getElementById('video-time').innerHTML= `${currentMin} : ${currentSec}`;}
-// no sé porque no me anduvo
-
 video.addEventListener("timeupdate", function(){
  
     let currentVideoTime = video.currentTime;
